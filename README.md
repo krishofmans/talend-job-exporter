@@ -28,11 +28,11 @@ C:\tools\talend\6.1.1\TOS_DI-win-x86_64.exe -nosplash -data C:\projects\trunk\co
 * Checkout this repository to a local directory.
 * Make sure you can execute `mvn` on your command line.
 
-* The `org.talend.repository_6.1.1.20151214_1327.jar`  have to be installed in your local Maven 
+* The `org.talend.repository_6.4.1.20170623_1246.jar`  have to be installed in your local Maven 
 repository. 
 See [install-file Maven command](https://maven.apache.org/plugins/maven-install-plugin/examples/specific-local-repo.html)  for more details about the install-file Maven command e.g.:
 
-`mvn install:install-file -Dfile=plugins\org.talend.repository_6.1.1.20151214_1327.jar -DgroupId=org.talend.studio -DartifactId=org.talend.repository -Dversion=6.1.1 -Dpackaging=jar`
+`mvn install:install-file -Dfile=plugins/org.talend.repository_6.4.1.20170623_1246.jar -DgroupId=org.talend.studio -DartifactId=org.talend.repository -Dversion=6.4.1 -Dpackaging=jar`
 
  * Build the plugin with the `mvn clean install` command. 
 
